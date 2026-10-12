@@ -277,7 +277,7 @@ None of these answers changes #1–#7.
 
 ## Evidence
 
-The scripts and notes behind this table are in `evidence/`. All checks ran locally at `f93f7a5` (Python 3.11, pinned `requirements.txt` plus `tests/requirements-test.txt`), with the env vars from the CI workflow. No production credentials were used and no calls were placed. The LiveKit checks used the open-source server in dev mode (`brew install livekit && livekit-server --dev --bind 127.0.0.1 --node-ip 127.0.0.1`, keys `devkey`/`secret`).
+All checks ran locally at `f93f7a5` (Python 3.11, pinned `requirements.txt` plus `tests/requirements-test.txt`), with the env vars from the CI workflow. No production credentials were used and no calls were placed. The LiveKit checks used the open-source server in dev mode (`brew install livekit && livekit-server --dev --bind 127.0.0.1 --node-ip 127.0.0.1`, keys `devkey`/`secret`).
 
 | # | Check | Result |
 |---|---|---|
